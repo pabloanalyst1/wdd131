@@ -37,7 +37,7 @@ nav ul {
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Add space between nav items */
+    gap: 10px;
 }
 
 nav li {
@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 .hamburger {
-    display: block; /* Show the hamburger button in the mobile view */
+    display: block; 
     background: none;
     border: none;
     font-size: 2em;
@@ -71,14 +71,14 @@ main {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: grid;
-    grid-template-columns: 1fr; /* Single column for mobile */
+    grid-template-columns: 1fr;
     gap: 20px;
-    flex: 1; /* Expand main to fill remaining vertical space */
+    flex: 1; 
 }
 
 main h2 {
     text-align: center;
-    grid-column: 1 / -1; /* Make the heading span across all columns */
+    grid-column: 1 / -1; 
 }
 
 figure {
@@ -93,9 +93,9 @@ figure {
 }
 
 figure img {
-    width: 100%; /* Set a consistent width */
-    height: 200px; /* Set a consistent height */
-    object-fit: cover; /* Ensure images cover the area while maintaining aspect ratio */
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
     border-radius: 5px;
 }
 
