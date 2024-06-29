@@ -35,7 +35,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    position: relative; 
 }
 
 .hero-container {
@@ -99,9 +99,24 @@ h2 {
     margin: 10px;
 }
 
-.weather-icon::after {
-    content: '⛅';
-    font-size: 1.2em;
+.weather-icon {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px auto 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-content {
+    margin-top: 20px;
 }
 
 footer {
@@ -118,15 +133,7 @@ footer {
         margin: 10px auto;
         height: auto; 
     }
-    .weather-icon::after {
-        content: '';
+    .weather-icon {
         display: block;
-        width: 50px;
-        height: 50px;
-        background-image: url('/images/weather_icon.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin: 0 auto; 
     }
 }
