@@ -35,19 +35,19 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative; /* Necesario para que los elementos posicionados absolutamente se alineen correctamente */
+    position: relative;
 }
 
 .hero-container {
     width: 100%;
-    padding: 0.5rem; /* Añadir padding alrededor de la imagen */
-    box-sizing: border-box; /* Incluir padding en el tamaño total del contenedor */
+    padding: 0.5rem; 
+    box-sizing: border-box; 
 }
 
 .hero-image {
     width: 100%;
     height: auto;
-    max-height: 1000px; /* Actualización aquí */
+    max-height: 1000px; 
     object-fit: cover;
 }
 
@@ -58,7 +58,7 @@ h2 {
     border-radius: 5px;
     margin-top: 0;
     position: relative;
-    left: -30px; /* Para que el fondo salga un poco hacia la izquierda */
+    left: -30px; 
 }
 
 .data, .weather {
@@ -116,7 +116,7 @@ footer {
         position: static;
         width: 90%;
         margin: 10px auto;
-        height: auto; /* Restablecer la altura para dispositivos móviles */
+        height: auto; 
     }
     .weather-icon::after {
         content: '';
@@ -127,6 +127,6 @@ footer {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        margin: 0 auto; /* Centrar el icono debajo del título */
+        margin: 0 auto; 
     }
 }
