@@ -35,19 +35,19 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative; 
+    position: relative; /* Necesario para que los elementos posicionados absolutamente se alineen correctamente */
 }
 
 .hero-container {
     width: 100%;
-    padding: 0.5rem; 
-    box-sizing: border-box; 
+    padding: 0.5rem; /* Añadir padding alrededor de la imagen */
+    box-sizing: border-box; /* Incluir padding en el tamaño total del contenedor */
 }
 
 .hero-image {
     width: 100%;
     height: auto;
-    max-height: 1000px; 
+    max-height: 1000px; /* Actualización aquí */
     object-fit: cover;
 }
 
@@ -58,7 +58,7 @@ h2 {
     border-radius: 5px;
     margin-top: 0;
     position: relative;
-    left: -30px; 
+    left: -30px; /* Para que el fondo salga un poco hacia la izquierda */
 }
 
 .data, .weather {
@@ -99,24 +99,9 @@ h2 {
     margin: 10px;
 }
 
-.weather-icon {
-    display: none;
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 10px auto 0;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.weather-content {
-    margin-top: 20px;
+.weather-icon::after {
+    content: '⛅';
+    font-size: 1.2em;
 }
 
 footer {
@@ -131,10 +116,17 @@ footer {
         position: static;
         width: 90%;
         margin: 10px auto;
-        height: auto; 
+        height: auto; /* Restablecer la altura para dispositivos móviles */
     }
-    .weather-icon {
+    .weather-icon::after {
+        content: '';
         display: block;
-        background-image: url('/images/weather_icon.svg'); 
+        width: 50px;
+        height: 50px;
+        background-image: url('/images/weather_icon.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto; /* Centrar el icono debajo del título */
     }
 }
