@@ -23,11 +23,21 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    position: relative;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
+}
+
+header h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin: 10px auto 0;
 }
 
 main {
