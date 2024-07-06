@@ -75,20 +75,20 @@ document.addEventListener("DOMContentLoaded", function() {
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
         },
         {
-            templeName: "Mexico City Mexico",
-            location: "Mexico City, Mexico",
-            dedicated: "1983, December, 2",
-            area: 116642,
+            templeName: "Caracas Venezuela Temple",
+            location: "Caracas, Venezuela",
+            dedicated: "2000, August 20",
+            area: 15332,
             imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/caracas-venezuela/400x225/caracas_venezuela_temple_detail_1691066_2400x1200.jpg"
         },
         {
-            templeName: "Mexico City Mexico",
-            location: "Mexico City, Mexico",
-            dedicated: "1983, December, 2",
-            area: 116642,
+            templeName: "Ciudad Juárez Mexico Temple",
+            location: "Ciudad Juárez, Mexico",
+            dedicated: "2000, February 26",
+            area: 10700,
             imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/ciudad-juarez-mexico/400x250/ciudad-juarez-mexico-temple-lds-126122-wallpaper.jpg"
         },
     ];
 
