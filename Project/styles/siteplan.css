@@ -1,20 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #F8F9FA;
     color: #333;
 }
 
 header {
-    background-color: #0c4090;
+    background-color: #0073CF;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-}
-
-h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 2.5em;
 }
 
 main {
@@ -26,30 +24,51 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section {
-    margin-bottom: 20px;
+h1, h2 {
+    color: #0073CF;
 }
 
 h2 {
-    color: #0c4090;
-    border-bottom: 2px solid #dc143c;
+    border-bottom: 2px solid #4CAF50;
     padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 ul {
-    padding-left: 20px;
+    list-style-type: none;
+    padding: 0;
 }
 
 ul li {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.wireframe img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 footer {
-    background-color: #0c4090;
+    background-color: #0073CF;
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
 }
